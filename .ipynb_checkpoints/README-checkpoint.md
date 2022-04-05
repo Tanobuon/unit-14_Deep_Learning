@@ -1,6 +1,6 @@
 # unit-14_Deep_Learning
 
-#### For this homework I created 2 similar notebook with different targets to see which between fear & greed index and closing price was giving a better results for our predictions.
+#### For this homework I created 2 notebooks to see which between fear & greed index and closing price is best reference the for price predictions.
 ##### Those are all of the steps:
 
 * Prepared the data joining together Historical prices and Fear & Greed scores.
@@ -11,8 +11,8 @@
 * Reshaped the features for the model.
 * Builded the LSTM model setting the number of units to 30 and dropout to 0.6.
 * Compiled the model using "Adam" optimizer.
-* Printed the model summary
-* Trained the model using 10 epochs and batch size 1
+* Printed the model summary.
+* Trained the model using 10 epochs and batch size 1.
 * Evaluated the test and made predictions.
 * Created a dataframe with predicted and real prices then plotted it.
 
